@@ -19,5 +19,4 @@ const port = chrome.runtime.connect({ name: PORT_TYPE.CONTENT, includeTlsChannel
 port.postMessage({ msg: "Content script connected" });
 
 // create external frame for every tab
-
-createExternalFrame();
+// createExternalFrame();

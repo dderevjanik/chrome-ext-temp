@@ -19,7 +19,7 @@
                 "./js/content.js"
             ],
             "runt_at": "document_start",
-            "all_frames": false // (remove "all_frames": true if you don't want to insert the frame in every subframe.)
+            "all_frames": true // (remove "all_frames": true if you don't want to insert the frame in every subframe.)
         }
     ],
     "browser_action": {
